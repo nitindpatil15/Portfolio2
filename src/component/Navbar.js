@@ -55,4 +55,4 @@ export class NavBar extends Component{
     );
   }
 }
-ex
+export default NavBar
