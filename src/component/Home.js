@@ -11,25 +11,29 @@ const Home = () => {
     <>
       <div className="container my-5 Top-Section">
         <div
-          className="container text-center mt-5"
-          style={{ fontSize: "3.6rem", minWidth: "300px" }}
+          className="mt-5"
+          style={{ fontSize: "1.9rem", minWidth: "300px" }}
         >
-          Hey , I am <span class="text-primary">Nitin Patil</span>
-          <div>And I am Passionate </div>
-          <span>
+         <b> Hello,</b>
+          <div><b>I am Passionate </b>{"  "}
+          <b><span>
             <ReactTyped
               className="text-primary"
-              strings={["Web Developer", "MERN Stack Developer"]}
+              strings={[" Web Developer", " MERN Stack Developer"]}
               typeSpeed={50}
             />
-          </span>
+          </span></b>
+          </div>
+          <div className="my-4">
+          Welcome to my portfolio! I am a software developer with a passion for creating innovative web solutions. My GitHub repository is a treasure trove of creative projects that showcase my skills and expertise.
+          </div>
         </div>
         <div className="container text-center">
           <img
             src={Nitin}
             alt="Nitin_Img"
             style={{
-              width: "50%",
+              width: "45%",
               borderRadius: "50%",
               boxShadow: "10px 10px 2px black",
               minWidth: "350px",
