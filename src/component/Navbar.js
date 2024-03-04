@@ -17,7 +17,7 @@ export class NavBar extends Component{
                   </Link>
                 </li>
                 <li className="nav-item mx-3 ">
-                  <Link className="nav-a nav-link" to="/projects">
+                  <Link className="nav-a nav-link" to="/project">
                     <b>Projects</b>
                   </Link>
                 </li>

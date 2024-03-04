@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TextPro from "./TextEditor.jpg";
 import Notebook from "./iNoteBook.jpg";
+import './index.css'
 
 const Project = () => {
   return (
     <>
-      <div className="container">
-        <h1 className="mb-5 text-primary" style={{fontSize:"4rem"}}>Projects</h1>
-        <div
+      <div className="mx-5 my-5 project">
+       <div
           id="carouselExampleControls"
-          className="carousel slide"
+          className="carousel slide mx-5 my-5"
           data-ride="carousel"
         >
           <div className="carousel-inner">
