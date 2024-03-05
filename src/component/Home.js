@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <div className="my-3 mx-3 Top-Section">
         <div
-          className="mt-5"
+          className="mt-5 ml-5"
           style={{ fontSize: "1.9rem", minWidth: "300px" }}
         >
          <b> Hello,</b>
@@ -32,8 +32,8 @@ const Home = () => {
           <div className="my-4">
           Welcome to my portfolio! I am a software developer with a passion for creating innovative web solutions. My GitHub repository is a treasure trove of creative projects that showcase my skills and expertise.
           </div>
-          <button type="button" className="btn btn-primary mx-2 pd-5" to="">Resume</button>  
-          <button type="button" className="btn btn-primary mx-2 pd-5" onClick={handleproject}>Project</button>
+          <button type="button" className="btn btn-primary mx-2 res_pro" to="">Resume</button>  
+          <button type="button" className="btn btn-primary mx-2 res_pro" onClick={handleproject}>Project</button>
         </div>
         <div className="container text-center">
           <img
