@@ -2,7 +2,7 @@
 .Top-Section{
     padding: 2rem;
     display: flex;
-    background-color: rgb(214, 212, 210);
+    background-color: rgba(214, 212, 210, 0.329);
 }
 .box{
     width: 30%;
@@ -14,7 +14,7 @@
 }
 /* Project Component  */
 .project{
-    background-color: rgb(214, 212, 210);
+    background-color: rgba(214, 212, 210, 0.394);
 }
 .res_pro{
     font-size: 2rem;
@@ -26,7 +26,7 @@
 
 /* About Component  */
 .about{
-    background-color: rgb(214, 212, 210);
+    background-color: rgba(214, 212, 210, 0.394);
 }
 .Nitin_Img{
     width: 40%;
@@ -34,4 +34,26 @@
     top: 50%;
     left: 30%;
     transform: translate(-80%,-5%);
+}
+
+/* Skill Componenets  */
+.skill{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(214, 212, 210, 0.394);
+}
+.logo:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 15px rgb(107, 102, 102);
+}
+.logo{
+    background-color: white;
+    border: 1px solid gray;
+    height: 10rem;
+    width:10rem ;
+    margin: 2rem;
+    align-items: center;
 }

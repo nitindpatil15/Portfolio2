@@ -7,7 +7,7 @@ import './index.css'
 const Project = () => {
   return (
     <>
-      <div className="mx-5 my-5 project">
+      <div className="mx-3 my-3 project">
        <div
           id="carouselExampleControls"
           className="carousel slide mx-5 my-5"
