@@ -8,11 +8,10 @@ import './index.css'
 const Footer = () => {
   return (
     <>
-      <footer className='footer mt-5 ml-5 mb-1 d-flex'>
-        <h1 className="text-secondary d-flex ">Nitin_Patil</h1>
-        <div className="nav navbar navbar-expand-lg navbar-light bg-light mx-5" style={{fontSize:"1.5rem"}}>
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0  ">
-                <li className="nav-item mx-3">
+      <footer className='footer mt-5 mx-2 mb-1'>
+        <div className="navbar navbar-expand-lg navbar-light bg-light mx-5" style={{fontSize:"1.5rem"}}>
+        <ul className="navbar-nav mb-2 mb-lg-0  ">
+                <li className="mx-3">
                   <Link className="nav-a nav-link" aria-current="page" to="/">
                     <b>Home</b>
                   </Link>

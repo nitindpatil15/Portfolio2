@@ -19,7 +19,7 @@ const About = () => {
           />
         </div>
         <div className="container my-3 mx-3">
-          <div className="text-secondary my-5" style={{ fontSize: "4vh" }}>
+          <div className="text-secondary my-5" style={{ fontSize: "2rem" }}>
             <h1 className="text-secondary">
               Brief <span className="text-primary">Introduction</span>
             </h1>

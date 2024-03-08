@@ -10,7 +10,7 @@ export class NavBar extends Component{
           <div className="container-fluid d-flex">
             <Link className="navbar-brand text-secondary mx-5" to="/"><span className="text-primary" style={{fontSize:"2rem"}}> <b>Nitin_Patil</b> </span>{" "}
             </Link>
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-5 ">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-5 navigation">
                 <li className="nav-item mx-3">
                   <Link className="nav-a nav-link" aria-current="page" to="/">
                     <b>Home</b>
