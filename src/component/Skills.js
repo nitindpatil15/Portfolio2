@@ -1,17 +1,17 @@
 import React from "react";
 import "./index.css";
-import HTML from './HTML.png'
-import CSS from './CSS.png'
-import react from './react.png'
-import js from './javascript.png'
-import njs from './node-js.png'
-import mdb from './mongodb.png'
-import ex from './express.png'
-import vstudio from './visualstudio.png'
-import github from './github.png'
-import py from './python.png'
-import c from './c.png'
-import cpp from './cpp.png'
+import HTML from './img/HTML.png'
+import CSS from './img/CSS.png'
+import react from './img/react.png'
+import js from './img/javascript.png'
+import njs from './img/nodejs.png'
+import mdb from './img/mongodb.png'
+import ex from './img/express.png'
+import vstudio from './img/visualstudio.png'
+import github from './img/github.png'
+import py from './img/python.png'
+import c from './img/c.png'
+import cpp from './img/cpp.png'
 
 const Skills = () => {
   return (
