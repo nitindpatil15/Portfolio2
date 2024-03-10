@@ -6,7 +6,7 @@ import Project from "./component/Project";
 import Skills from "./component/Skills";
 import Contact from "./component/Contact";
 import Home from "./component/Home";
-// import Footer from "./component/Footer";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
     </>
   );

@@ -8,6 +8,12 @@
   transform: scale(1.2);
   box-shadow: 1px 1px 15px rgb(107, 102, 102);
 }
+.port{
+  margin-top: 5%;
+  width: 60%;
+  border-radius: 40%;
+  box-shadow: 0px 0px 20px black;
+}
 .box {
   width: 30%;
   height: auto;
@@ -18,13 +24,16 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  /* Top Home Justification  */
   .Top-Section {
     display: block;
     text-align: center;
   }
   .port {
-    width: 20rem;
-    margin-top: 0%;
+    margin: 7% 0;
+    width: 30%;
+    border-radius: 40%;
+    box-shadow: 0px 0px 20px black;
   }
   .title_home {
     font-size: 1.5rem;
@@ -36,13 +45,90 @@
     color: black;
     background-color: rgb(178, 182, 182);
   }
+
+/* About Component  */
+.img_container{
+  width: 30%;
+}
+.Nitin_Img {
+  width: 90%;
+  border-radius: 20%;
+  box-shadow: 5px 5px 20px black;
+}
+.about_info{
+  font-size: 1rem ;
+}
 }
 
 @media only screen and (max-width: 768px){
-    .navigation{
-        display: inline-block;
+  /* Top Home Justification  */
+    .word_home{
+      font-size: 1.7rem;
     }
+    .Top-Section {
+      display: block;
+      text-align: center;
+    }
+    .port {
+      margin: 7% 0;
+      width: 40%;
+      border-radius: 40%;
+      box-shadow: 0px 0px 20px black;
+    }
+    .title_home {
+      font-size: 1.3rem;
+      /* text-align: justify; */
+    }
+    .res_pro {
+      
+      font-size: 2rem;
+      margin: 0;
+      border-radius: 1rem;
+      color: black;
+      background-color: rgb(178, 182, 182);
+    }
+
+    /* About Component  */
+
+.img_container{
+  width: 100%;
 }
+.Nitin_Img {
+  width: auto;
+  height: 70%;
+  border-radius: 20%;
+  box-shadow: 5px 5px 20px black;
+}
+.about_info{
+  font-size: 0.8rem ;
+}
+}
+
+@media only screen and (max-width: 440px){
+  /* Top Home Justification  */
+  .word_home{
+    font-size: 1.5rem;
+  }
+  .port {
+    margin: 20% 0 7% 0;
+    width: 65%;
+    border-radius: 40%;
+    box-shadow: 0px 0px 20px black;
+  }
+  .title_home {
+    font-size: 1.2rem;
+    /* text-align: justify; */
+  }
+  .res_pro {
+    width: 100%;
+    font-size: 1rem;
+    margin: 0;
+    border-radius: 1rem;
+    color: black;
+    background-color: rgb(178, 182, 182);
+  }
+}
+
 /* Project Component  */
 .project {
   background-color: rgba(214, 212, 210, 0.394);
@@ -57,14 +143,16 @@
 
 /* About Component  */
 .about {
+  display: flex;
   background-color: rgba(214, 212, 210, 0.394);
 }
 .Nitin_Img {
-  width: 40%;
-  position: relative;
-  top: 50%;
-  left: 30%;
-  transform: translate(-80%, -5%);
+  width: 70%;
+  border-radius: 20%;
+  box-shadow: 5px 5px 20px black;
+}
+.img_container{
+  width: 30%;
 }
 
 /* Skill Componenets  */
@@ -83,8 +171,8 @@
 .logo {
   background-color: white;
   border: 1px solid gray;
-  height: 10rem;
-  width: 10rem;
+  height: 12rem;
+  width: 12rem;
   margin: 2rem;
   align-items: center;
 }

@@ -25,14 +25,14 @@ const Home = () => {
   };
   return (
     <>
-      <div className="my-3 mx-3 Top-Section">
+      <div className="my-3 mx-2 Top-Section">
         <div
-          className="mt-5 ml-5"
+          className="mt-2 mx-3"
           style={{ fontSize: "1.9rem" }}
           ref={componentRef}
         >
-          <b> Hello,</b>
-          <div>
+          <div className="word_home">
+          <b> Hello,</b><br />
             <b>I am </b>
             {"  "}
             <b>
@@ -71,14 +71,14 @@ const Home = () => {
           <div className="container resume">
             <button
               type="button"
-              className="btn btn-primary mx-2 res_pro"
+              className="btn-primary mx-2 res_pro"
               onClick={handleDownloadPdf}
             >
               Resume
             </button>
             <button
               type="button"
-              className="btn btn-primary mx-2 res_pro"
+              className="btn-success mx-2 res_pro"
               onClick={handleproject}
             >
               Project
@@ -91,12 +91,6 @@ const Home = () => {
               className="port"
               src={Nitin}
               alt="Nitin_Img"
-              style={{
-                marginTop: "10%",
-                width: "60%",
-                borderRadius: "40%",
-                boxShadow: "10px 10px 2px black",
-              }}
             />
           </Link>
         </div>
