@@ -97,7 +97,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="container">
-                    <div className="container img_container d-flex mt-5">
+                    <div className="container d-flex mt-5">
                       <span className="text-dark my-2" style={{fontSize:"2rem"}}> <h4>Social :</h4> </span>
                       <Link
                         className="fo_imgage "

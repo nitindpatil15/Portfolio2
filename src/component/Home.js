@@ -7,6 +7,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import { usePDF } from "react-to-pdf";
 import "./index.css";
+import Resume from './NitinPatilResume.pdf'
 
 const Home = () => {
   const navigate = useNavigate();
@@ -69,13 +70,15 @@ const Home = () => {
             expertise.
           </div>
           <div className="container resume">
+            <Link to={Resume}>
             <button
               type="button"
               className="btn-primary mx-2 res_pro"
-              onClick={handleDownloadPdf}
+              src='/NitinPatilResume.pdf'
             >
               Resume
             </button>
+            </Link>
             <button
               type="button"
               className="btn-success mx-2 res_pro"
