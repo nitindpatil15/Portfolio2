@@ -5,7 +5,6 @@ import Project from "./Project";
 import Skills from "./Skills";
 import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
-import { usePDF } from "react-to-pdf";
 import "./index.css";
 import Resume from './NitinPatilResume.pdf'
 
@@ -13,14 +12,6 @@ const Home = () => {
   const navigate = useNavigate();
   const componentRef = useRef();
 
-  const { toPdf, savePdf } = usePDF({
-    content: componentRef,
-  });
-
-  const handleDownloadPdf = () => {
-    toPdf();
-    savePdf("NitinPatilResume.pdf");
-  };
   const handleproject = () => {
     navigate("/project");
   };

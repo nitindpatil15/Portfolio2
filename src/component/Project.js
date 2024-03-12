@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TextPro from "./TextEditor.jpg";
-import Notebook from "./iNoteBook.jpg";
 import './index.css'
 
 const Project = () => {
