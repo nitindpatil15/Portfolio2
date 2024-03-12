@@ -61,6 +61,14 @@
   .about_info {
     font-size: 1rem;
   }
+
+  /* project Responsive  */
+  .roll{
+    margin-top: 3%;
+  }
+  .pro_info{
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,6 +118,13 @@
   .foot{
     display: block;
   }
+  /* project Responsive  */
+  .roll{
+    margin-top: 3%;
+  }
+  .pro_info{
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -140,6 +155,13 @@
   }
   .about_info {
     font-size: 1.05rem;
+  }
+  /* project Responsive  */
+  .roll{
+    margin-top: 3%;
+  }
+  .pro_info{
+    font-size: 0.5rem;
   }
 }
 

@@ -5,7 +5,7 @@ import './index.css'
 const About = () => {
   return (
     <>
-      <div className="mx-2 my-2 about">
+      <div className="mx-2 about">
         <div className="container ml-5 my-5 img_container">
           <img
             src={Nitin1}
