@@ -7,6 +7,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import "./index.css";
 import Resume from './NitinPatilResume.pdf'
+import Contact from "./Contact";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="my-3 mx-2 Top-Section">
+      <div className="mb-3 mx-2 Top-Section">
         <div
           className="mt-2 mx-3"
           style={{ fontSize: "1.9rem" }}
@@ -92,6 +93,7 @@ const Home = () => {
       <About />
       <Project />
       <Skills />
+      <Contact/>
     </>
   );
 };

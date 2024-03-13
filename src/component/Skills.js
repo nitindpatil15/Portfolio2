@@ -10,16 +10,12 @@ import ex from './img/express.png'
 import vstudio from './img/visualstudio.png'
 import github from './img/github.png'
 import py from './img/python.png'
-import c from './img/c.png'
-import cpp from './img/cpp.png'
 
 const Skills = () => {
   return (
     <>
     <h1 className="text-secondary text-center"> Skills</h1>
-      <div className="skill col-md-10">
-        <img className="logo" src={c} alt="" />
-        <img className="logo" src={cpp} alt="" />
+      <div className="skill container col-md-8">
         <img className="logo" src={py} alt="" />
         <img className="logo" src={js} alt="" />
         <img className="logo" src={HTML} alt="" />
