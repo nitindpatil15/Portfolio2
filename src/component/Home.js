@@ -20,7 +20,7 @@ const Home = () => {
     <>
       <div className="mb-3 mx-2 Top-Section">
         <div
-          className="mt-2 mx-3"
+          className="mt-2 mx-1"
           style={{ fontSize: "1.9rem" }}
           ref={componentRef}
         >
@@ -92,7 +92,7 @@ const Home = () => {
       </div>
       <About />
       <Project />
-      <Skills />
+      <Skills/>
       <Contact/>
     </>
   );

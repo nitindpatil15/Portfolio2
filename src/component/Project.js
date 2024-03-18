@@ -15,7 +15,7 @@ const Project = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <Link to="https://text-editor-inky-ten.vercel.app/"><img src={TextPro} className="d-block roll w-100" alt="..." /></Link>
-              <p className="text-center pro_info text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque itaque repellendus dolorum placeat. Numquam illum cum repellendus fugit deleniti, ab dolorem voluptatum eum, provident optio magnam maxime quis? Veniam, maxime.</p>           </div>
+              <p className="text-center pro_info text-secondary">Developed a user-friendly text manipulation tool for efficient and accurate text processing. Enabled text transformation, extra space removal, and uppercase/lowercase conversions.</p></div>
             <div className="carousel-item">
               <Link to=""><img src={TextPro} className="d-block roll w-100" alt="..." /></Link>
               <p className="text-center pro_info text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque itaque repellendus dolorum placeat. Numquam illum cum repellendus fugit deleniti, ab dolorem voluptatum eum, provident optio magnam maxime quis? Veniam, maxime.</p>           </div>

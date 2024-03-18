@@ -17,7 +17,10 @@
   background-color: rgba(214, 212, 210, 0.329);
 }
 .navigation {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .port:hover {
   transform: scale(1.2);
@@ -154,7 +157,6 @@
   }
   .title_home {
     font-size: 1.2rem;
-    /* text-align: justify; */
   }
   .res_pro {
     width: 100%;
@@ -170,12 +172,25 @@
   .about_info {
     font-size: 1.05rem;
   }
+  .intro_about{
+    text-align: justify;
+  }
   /* project Responsive  */
   .roll{
     margin-top: 3%;
   }
   .pro_info{
     font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .title_home{
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .intro_about{
+    text-align: justify;
   }
 }
 
@@ -227,18 +242,24 @@
 }
 
 /* Footer Css  */
-.footer-nav {
+/* .footer-nav {
   font-size: 1.4rem;
-}
-.footer-contact{
-  margin-left: 30%;
 }
 .footer-con {
   width: 100%;
-}
+} */
 .fo_img {
   width: 2.3rem;
   border-radius: 50%;
+}
+.fo_im_foo{
+  width: 4rem;
+  border-radius: 50%;
+}
+.footer-contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .fo_img:hover {
   transform: scale(1.2);
