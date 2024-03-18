@@ -8,6 +8,7 @@ import { ReactTyped } from "react-typed";
 import "./index.css";
 import Resume from './NitinPatilResume.pdf'
 import Contact from "./Contact";
+import resume from './NitinPatilResume.pdf'
 
 const Home = () => {
   const navigate = useNavigate();
@@ -16,6 +17,11 @@ const Home = () => {
   const handleproject = () => {
     navigate("/project");
   };
+  const openResume = () => {
+    const resumeWindow = window.open('', '_blank');
+    resumeWindow.document.write('<iframe width="100%" height="100%" src="' + resume + '" frameBorder="0" allowFullScreen></iframe>');
+  }
+
   return (
     <>
       <div className="mb-3 mx-2 Top-Section">
@@ -62,15 +68,7 @@ const Home = () => {
             expertise.
           </div>
           <div className="container resume">
-            <Link to={Resume}>
-            <button
-              type="button"
-              className="btn-primary mx-2 res_pro"
-              src='/NitinPatilResume.pdf'
-            >
-              Resume
-            </button>
-            </Link>
+            <button className="btn-primary mx-2 res_pro" onClick={openResume}>Resume</button>
             <button
               type="button"
               className="btn-success mx-2 res_pro"
