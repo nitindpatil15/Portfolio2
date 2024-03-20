@@ -6,7 +6,6 @@ import Skills from "./Skills";
 import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import "./index.css";
-import Resume from './NitinPatilResume.pdf'
 import Contact from "./Contact";
 import resume from './NitinPatilResume.pdf'
 
