@@ -28,7 +28,6 @@ const Skills = () => {
           <img className="logo" src={vstudio} alt="" />
           <img className="logo" src={github} alt="" />
         </div>
-        <h1 className="leave my-2"></h1>
       </div>
     </>
   );
