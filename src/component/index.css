@@ -135,6 +135,15 @@
   .foot{
     display: block;
   }
+
+  /* Skills  */
+  .logo {
+    height: 7rem !important;
+    width: 7rem !important;
+    margin: 1.3rem;
+  }
+  /* Skills End  */
+
   /* project Responsive  */
   .roll{
     margin-top: 3%;
@@ -182,6 +191,21 @@
   .pro_info{
     font-size: 0.5rem;
   }
+
+   /* Skills  */
+   .logo {
+    height: 5rem !important;
+    width: 5rem !important;
+    margin: 1.3rem;
+  }
+  /* Skills End  */
+
+  /* Footer  */
+  .Link-a{
+    font-size: 1.2rem !important;
+    margin: 0;
+  }
+  /* Footer end */
 }
 
 @media only screen and (max-width: 380px) {
@@ -233,6 +257,7 @@
   box-shadow: 1px 1px 15px rgb(107, 102, 102);
 }
 .logo {
+  border-radius: 30%;
   background-color: white;
   border: 1px solid gray;
   height: 10rem;
@@ -241,12 +266,7 @@
 }
 
 /* Footer Css  */
-/* .footer-nav {
-  font-size: 1.4rem;
-}
-.footer-con {
-  width: 100%;
-} */
+
 .fo_img {
   width: 2.3rem;
   border-radius: 50%;
