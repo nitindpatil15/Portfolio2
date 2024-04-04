@@ -7,7 +7,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import "./index.css";
 import Contact from "./Contact";
-import resume from './NitinPatilResume.pdf'
+import resume from './Nitin_Dagadu_Patil_Resume.pdf'
 
 const Home = () => {
   const navigate = useNavigate();
