@@ -220,7 +220,8 @@
 
 /* Project Component  */
 .project {
-  background-color: rgba(214, 212, 210, 0.394);
+  background-color: rgba(9, 2, 2, 0.787);
+  color: white;
 }
 .res_pro {
   font-size: 2rem;
