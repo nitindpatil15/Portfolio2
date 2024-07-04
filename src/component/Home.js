@@ -6,8 +6,7 @@ import Skills from "./Skills";
 import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import "./index.css";
-import Contact from "./Contact";
-import resume from './Nitin_Dagadu_Patil_Resume.pdf'
+import resume from './NITIN_DAGADU_PATIL.pdf'
 
 const Home = () => {
   const navigate = useNavigate();
@@ -90,7 +89,6 @@ const Home = () => {
       <About />
       <Project />
       <Skills/>
-      <Contact/>
     </>
   );
 };

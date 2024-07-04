@@ -9,18 +9,18 @@ import "./index.css";
 const Footer = () => {
   return (
     <>
-      <footer className="footer foot mt-5 mx-2 mb-1">
+      <footer className="footer foot mt-5 bg-dark">
         <div className="container footer-contact">
-          <Link className="text-secondary Link-a mb-2 ml-3" style={{fontSize:"1.5rem"}} aria-current="page" to="/">
+          <Link className="text-light Link-a mb-2 ml-1 mt-3 " style={{fontSize:"1.5rem"}} aria-current="page" to="/">
             <b>Home</b>
           </Link>
-          <Link className="text-secondary Link-a mb-2 ml-3" style={{fontSize:"1.5rem"}} to="/project">
+          <Link className="text-light Link-a mb-2 ml-1 mt-3 " style={{fontSize:"1.5rem"}} to="/project">
             <b>Project</b>
           </Link>
-          <Link className="text-secondary Link-a mb-2 ml-3" style={{fontSize:"1.5rem"}} to="/about">
+          <Link className="text-light Link-a mb-2 ml-1 mt-3 " style={{fontSize:"1.5rem"}} to="/about">
             <b>About</b>
           </Link>
-          <Link className="text-secondary Link-a mb-2 ml-3" style={{fontSize:"1.5rem"}} to="/contact">
+          <Link className="text-light Link-a mb-2 ml-1 mt-3 " style={{fontSize:"1.5rem"}} to="/contact">
             <b>Contact</b>
           </Link>
         </div>
