@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Github from "./img/github.png";
-import LinkedIn from "./img/317750_linkedin_icon.png";
-import Instagram from "./img/instagram.png";
-import Twitter from "./img/twitter.avif";
+import Github from "../Assets/img/github.png";
+import LinkedIn from "../Assets/img/317750_linkedin_icon.png";
+import Instagram from "../Assets/img/instagram.png";
+import Twitter from "../Assets/img/twitter.avif";
 import "./index.css";
 
 const Footer = () => {

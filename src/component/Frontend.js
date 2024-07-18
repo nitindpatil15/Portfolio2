@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TextPro from "./TextEditor.jpg";
-import NewsApi from "./img/NewsApi.png";
+import TextPro from "../Assets/img/TextEditor.jpg";
+import NewsApi from "../Assets/img/NewsApi.png";
 
 
 function front_end() {

@@ -1,15 +1,15 @@
 import React from "react";
 import "./index.css";
-import HTML from "./img/HTML.png";
-import CSS from "./img/CSS.png";
-import react from "./img/react.png";
-import js from "./img/javascript.png";
-import njs from "./img/nodejs.png";
-import mdb from "./img/mongodb.png";
-import ex from "./img/express.png";
-import vstudio from "./img/visualstudio.png";
-import github from "./img/github.png";
-import py from "./img/python.png";
+import HTML from "../Assets/img/HTML.png";
+import CSS from "../Assets/img/CSS.png";
+import react from "../Assets/img/react.png";
+import js from "../Assets/img/javascript.png";
+import njs from "../Assets/img/nodejs.png";
+import mdb from "../Assets/img/mongodb.png";
+import ex from "../Assets/img/express.png";
+import vstudio from "../Assets/img/visualstudio.png";
+import github from "../Assets/img/github.png";
+import py from "../Assets/img/python.png";
 
 const Skills = () => {
   return (

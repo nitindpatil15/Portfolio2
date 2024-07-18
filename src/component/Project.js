@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TextPro from "./TextEditor.jpg";
+import TextPro from "../Assets/img/TextEditor.jpg";
 import "./index.css";
-import NoteBook from "./img/notebook.png";
-import NewsApi from "./img/NewsApi.png";
+import NoteBook from "../Assets/img/notebook.png";
+import NewsApi from "../Assets/img/NewsApi.png";
 
 const Project = () => {
   return (

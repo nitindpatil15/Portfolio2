@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NoteBook from "./img/notebook.png";
+import NoteBook from "../Assets/img/notebook.png";
 
 const Full_Stack = () => {
   return (

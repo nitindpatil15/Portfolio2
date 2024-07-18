@@ -1,5 +1,5 @@
 import React from "react";
-import Nitin1 from "./Nitin1.jpg";
+import Nitin1 from "../Assets/img/Nitin1.jpg";
 import './index.css'
 
 const About = () => {

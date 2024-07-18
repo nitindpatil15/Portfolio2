@@ -1,7 +1,7 @@
 import React from "react";
-import Github from './img/github.png'
-import LinkedIn from './img/317750_linkedin_icon.png'
-import Instagram from './img/instagram.png'
+import Github from '../Assets/img/github.png'
+import LinkedIn from '../Assets/img/317750_linkedin_icon.png'
+import Instagram from '../Assets/img/instagram.png'
 import { Link } from "react-router-dom";
 
 const Contact = () => {
