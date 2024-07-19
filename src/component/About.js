@@ -1,35 +1,34 @@
 import React from "react";
 import Nitin1 from "../Assets/img/Nitin1.jpg";
-import './index.css'
 
 const About = () => {
   return (
     <>
-      <div className="mx-2 about">
-        <div className="container ml-5 my-5 img_container">
+      <div className="flex justify-between items-center">
+        <div className="m-5 hidden md:block">
           <img
             src={Nitin1}
             alt="Nitin_Img"
-            className="my-5 Nitin_Img"
+            className="w-40 md:w-[35rem] lg:w-[25rem] rounded-3xl"
           />
         </div>
-        <div className="container my-3 intro_about">
-          <div className="text-secondary my-5">
-            <h1 className="text-secondary">
-              Brief <span className="text-primary">Introduction</span>
+        <div className="m-4">
+          <div className="">
+            <h1 className="text-gray-600 text-5xl my-2">
+              Brief <span className="text-indigo-600">Introduction</span>
             </h1>
-            <div className="text-secondary mr-2 about_info h4">
+            <div className="text-[1.2rem] md:text-[1.4rem] text-gray-500">
             I am pursuing a degree in Computer Engineering in third year at Godavari College of Engineering, Jalgaon, Maharashtra.</div>
-            <div className="text-secondary about_info h4">
+            <div className="text-[1.2rem] md:text-[1.4rem] text-gray-500">
               Web developer with a strong passion for creating innovative and
               visually appealing web solutions.
             </div>
-            <div className="text-secondary about_info h4">
+            <div className="text-[1.2rem] md:text-[1.4rem] text-gray-500">
               I am proficient in HTML, CSS, Javascript and React and skilled in
               responsive interfaces, performance optimization, and user-centered
-              design. I plan to learn Backend And Next.js in the near future.
+              design. I plan to learn Next.js in the near future.
             </div>
-            <div className="text-secondary about_info h4">Also, I love coffee🍵</div>
+            <div className="text-[1.2rem] md:text-[1.4rem] text-gray-500">Also, I love coffee🍵</div>
           </div>
         </div>
       </div>

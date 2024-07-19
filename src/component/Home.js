@@ -5,7 +5,6 @@ import Project from "./Project";
 import Skills from "./Skills";
 import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
-import "./index.css";
 import resume from '../Assets/Resume/NITIN_DAGADU_PATIL.pdf'
 
 const Home = () => {
@@ -22,13 +21,12 @@ const Home = () => {
 
   return (
     <>
-      <div className="mb-3 mx-2 Top-Section">
+      <div className="flex items-center justify-center flex-col-reverse md:flex-row md:ml-20 mt-4">
         <div
-          className="mt-2 mx-1"
-          style={{ fontSize: "1.9rem" }}
+          className="mt-2 mx-4 md:mr-16"
           ref={componentRef}
         >
-          <div className="word_home">
+          <div className="md:text-4xl text-3xl text-center">
           <b> Hello,</b><br />
             <b>I am </b>
             {"  "}
@@ -59,27 +57,27 @@ const Home = () => {
               </span>
             </b>
           </div>
-          <div className="my-4 title_home">
-            Welcome to my portfolio! I am a software developer with a passion
-            for creating innovative web solutions. My GitHub repository is a
+          <div className="my-4 text-justify text-2xl md:text-3xl">
+            Welcome to my <span className="text-indigo-500 font-bold">Portfolio</span>! I am a software developer with a passion
+            for creating innovative web solutions. My <Link className="hover:no-underline hover:text-red-700" to='https://github.com/nitindpatil15/'>GitHub</Link> repository is a
             treasure trove of creative projects that showcase my skills and
             expertise.
           </div>
-          <div className="container resume">
-            <button className="btn-primary mx-2 res_pro" onClick={openResume}>Resume</button>
+          <div className="flex flex-row justify-center md:justify-start">
+            <button className="bg-blue-500 mx-2 p-2 text-2xl rounded-3xl hover:text-white hover:bg-gray-500 hover:border-4 hover:border-indigo-600 px-4" onClick={openResume}>Resume</button>
             <button
               type="button"
-              className="btn-success mx-2 res_pro"
+              className="bg-green-500 mx-2 p-2 text-2xl rounded-3xl hover:text-white hover:bg-gray-500 hover:border-4 hover:border-green-600 px-4"
               onClick={handleproject}
             >
               Project
             </button>
           </div>
         </div>
-        <div className="container text-center ">
-          <Link to="">
+        <div className="md:container mx-20">
+          <Link to="" className="">
             <img
-              className="port"
+              className="w-36 mt-12 md:w-72 rounded-full"
               src={Nitin}
               alt="Nitin_Img"
             />

@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import HTML from "../Assets/img/HTML.png";
 import CSS from "../Assets/img/CSS.png";
 import react from "../Assets/img/react.png";
@@ -14,48 +13,100 @@ import py from "../Assets/img/python.png";
 const Skills = () => {
   return (
     <>
-      <div className="container-fluid bg-light">
-        <h1 className="text-dark text-center">My Skills</h1>
-        <div className="skill container col-md-9">
-          <div className="skill-box my-2">
-            <img className="logo" src={py} alt="" />
-            <h4 className="text-dark text-center">Python</h4>
+      <h1 className="text-black text-center text-4xl font-bold my-3">
+        My Skills
+      </h1>
+      <div className="container bg-white py-2">
+        <div className="flex flex-row flex-wrap items-center justify-center">
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={py}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">Python</h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={js} alt="" />
-            <h4 className="text-dark text-center">JavaScript</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={js}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">
+              JavaScript
+            </h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={HTML} alt="" />
-            <h4 className="text-dark text-center">HTML</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={HTML}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">HTML</h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={CSS} alt="" />
-            <h4 className="text-dark text-center">CSS</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={CSS}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">CSS</h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={mdb} alt="" />
-            <h4 className="text-dark text-center">MongoDB</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={mdb}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">
+              MongoDB
+            </h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={react} alt="" />
-            <h4 className="text-dark text-center">React</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={react}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">React</h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={ex} alt="" />
-            <h4 className="text-dark text-center">Express Js</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={ex}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">
+              Express Js
+            </h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={njs} alt="" />
-            <h4 className="text-dark text-center">Node Js</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={njs}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">
+              Node Js
+            </h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={vstudio} alt="" />
-            <h4 className="text-dark text-center">VS Studio</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={vstudio}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">
+              VS Studio
+            </h4>
           </div>
-          <div className="skill-box my-2">
-            <img className="logo" src={github} alt="" />
-            <h4 className="text-dark text-center">GitHub</h4>
+          <div className="my-2 mx-5">
+            <img
+              className="border p-1 w-32 h-32 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              src={github}
+              alt=""
+            />
+            <h4 className="text-black text-center text-xl font-bold">GitHub</h4>
           </div>
         </div>
       </div>
