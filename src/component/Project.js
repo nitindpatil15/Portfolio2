@@ -13,7 +13,7 @@ const Project = () => {
             <li className="flex flex-row justify-start">
               <Link
                 to="/project"
-                className="mx-2 md:mx-10 hover:no-underline hover:text-indigo-600"
+                className="mx-5 md:mx-10 hover:no-underline hover:text-indigo-600"
               >
                 <b>PROJECT</b>
               </Link>
@@ -25,7 +25,7 @@ const Project = () => {
               </Link>
               <Link
                 to="/project/full-stack"
-                className="ml-2 md:ml-5 hover:no-underline hover:text-indigo-600"
+                className="ml-3 md:ml-5 hover:no-underline hover:text-indigo-600"
               >
                 Full Stack
               </Link>
@@ -37,9 +37,7 @@ const Project = () => {
       <div className="container my-5">
         <div className="row">
           <div className="flex flex-wrap justify-center">
-            <div
-              className="card mx-3 my-2 md:w-96"
-            >
+            <div className="card mx-3 my-2 md:w-96">
               <img
                 src={TextPro}
                 alt="TextEditor Application"
@@ -60,15 +58,22 @@ const Project = () => {
                     to="https://github.com/nitindpatil15/TextEditor"
                     className="text-red-500"
                   >
-                    link
+                    GitHub
+                  </Link>
+                </h5>
+                <h5>
+                  Live App:{" "}
+                  <Link
+                    to="https://text-editor-inky-ten.vercel.app/"
+                    className="text-red-500"
+                  >
+                    Link
                   </Link>
                 </h5>
               </div>
             </div>
 
-            <div
-              className="card mx-3 my-2 md:w-96"
-            >
+            <div className="card mx-3 my-2 md:w-96">
               <img
                 src={NewsApi}
                 alt="News Application"
@@ -89,15 +94,13 @@ const Project = () => {
                     to="https://github.com/nitindpatil15/NewsNP"
                     className="text-red-500"
                   >
-                    link
+                    GitHub
                   </Link>
                 </h5>
               </div>
             </div>
 
-            <div
-              className="card mx-3 my-2 md:w-96"
-            >
+            <div className="card mx-3 my-2 md:w-96">
               <img
                 src={NoteBook}
                 alt="News Application"
@@ -109,7 +112,8 @@ const Project = () => {
                 </h5>
                 <h5>DESCRIPTION: </h5>
                 <span>
-                Developed a MERN stack iNoteBook app with user registration, login, and Notes data retrieval from an API.
+                  Developed a MERN stack iNoteBook app with user registration,
+                  login, and Notes data retrieval from an API.
                 </span>
                 <h5>
                   Source:{" "}
@@ -117,7 +121,16 @@ const Project = () => {
                     to="https://github.com/nitindpatil15/Notebook"
                     className="text-red-500"
                   >
-                    link
+                    GitHub
+                  </Link>
+                </h5>
+                <h5>
+                  Live App:{" "}
+                  <Link
+                    to="https://inotebook-reactapp.netlify.app/"
+                    className="text-red-500"
+                  >
+                    Link
                   </Link>
                 </h5>
               </div>

@@ -6,12 +6,12 @@ const Full_Stack = () => {
   return (
     <>
       <div className="mt-10">
-        <div className="text-2xl md:text-3xl">
+        <div className="text-xl md:text-3xl">
           <ul className="bg-black py-2 text-gray-300">
             <li className="flex flex-row justify-start">
               <Link
                 to="/project"
-                className="mx-5 hover:no-underline hover:text-indigo-600"
+                className="mx-5 md:mx-10 hover:no-underline hover:text-indigo-600"
               >
                 <b>PROJECT</b>
               </Link>
@@ -23,7 +23,7 @@ const Full_Stack = () => {
               </Link>
               <Link
                 to="/project/full-stack"
-                className="ml-4 hover:no-underline hover:text-indigo-600"
+                className="ml-3 md:ml-5 hover:no-underline hover:text-indigo-600"
               >
                 Full Stack
               </Link>
@@ -35,9 +35,7 @@ const Full_Stack = () => {
       <div className="container my-5">
         <div className="row">
           <div className="flex flex-wrap justify-center">
-            <div
-              className="card mx-3 my-2 md:w-96"
-            >
+            <div className="card mx-3 my-2 md:w-96">
               <img
                 src={NoteBook}
                 alt="News Application"
@@ -49,7 +47,8 @@ const Full_Stack = () => {
                 </h5>
                 <h5>DESCRIPTION: </h5>
                 <span>
-                Developed a MERN stack iNoteBook app with user registration, login, and Notes data retrieval from an API.
+                  Developed a MERN stack iNoteBook app with user registration,
+                  login, and Notes data retrieval from an API.
                 </span>
                 <h5>
                   Source:{" "}
@@ -57,7 +56,16 @@ const Full_Stack = () => {
                     to="https://github.com/nitindpatil15/Notebook"
                     className="text-red-500"
                   >
-                    link
+                    GitHub
+                  </Link>
+                </h5>
+                <h5>
+                  Live App:{" "}
+                  <Link
+                    to="https://inotebook-reactapp.netlify.app/"
+                    className="text-red-500"
+                  >
+                    Link
                   </Link>
                 </h5>
               </div>

@@ -9,22 +9,22 @@ const Footer = () => {
   return (
     <>
       <footer className="mt-5 bg-gray-600">
-        <div className="container hidden flex-row justify-center md:flex p-2">
-          <Link className="text-white mx-5" style={{fontSize:"1.5rem"}} aria-current="page" to="/">
+        <div className="container flex-row justify-around  flex md:p-2">
+          <Link className="text-white mx-1 md:mx-5 text-base md:text-2xl"  aria-current="page" to="/">
             <b>Home</b>
           </Link>
-          <Link className="text-white mx-5" style={{fontSize:"1.5rem"}} to="/project">
+          <Link className="text-white mx-1 md:mx-5 text-base md:text-2xl"  to="/project">
             <b>Project</b>
           </Link>
-          <Link className="text-white mx-5" style={{fontSize:"1.5rem"}} to="/about">
+          <Link className="text-white mx-1 md:mx-5 text-base md:text-2xl"  to="/about">
             <b>About</b>
           </Link>
-          <Link className="text-white mx-5" style={{fontSize:"1.5rem"}} to="/contact">
+          <Link className="text-white mx-1 md:mx-5 text-base md:text-2xl"  to="/contact">
             <b>Contact</b>
           </Link>
         </div>
 
-        <div className="container flex flex-row justify-center">
+        <div className="container hidden md:flex md:flex-row justify-around">
           <Link className="mr-5 w-12 rounded-full" to="https://github.com/nitindpatil15">
           <img
               className="my-2 text-white m-1"
