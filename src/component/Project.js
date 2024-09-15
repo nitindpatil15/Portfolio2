@@ -13,21 +13,15 @@ const Project = () => {
             <li className="flex flex-row justify-start">
               <Link
                 to="/project"
-                className="mx-5 md:mx-10 hover:no-underline hover:text-indigo-600"
+                className="mx-3 md:mx-10 text-green-500 hover:no-underline hover:text-indigo-600"
               >
                 <b>PROJECT</b>
-              </Link>
-              <Link
-                to="/project/front-end"
-                className=" hover:no-underline hover:text-indigo-600"
-              >
-                FrontEnd
               </Link>
               <Link
                 to="/project/full-stack"
                 className="ml-3 md:ml-5 hover:no-underline hover:text-indigo-600"
               >
-                Full Stack
+                All Projects
               </Link>
             </li>
           </ul>

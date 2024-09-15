@@ -5,9 +5,8 @@ import Navbar from "./component/Navbar";
 import Project from "./component/Project";
 import Skills from "./component/Skills";
 import Home from "./component/Home";
+import FullStack from "./component/FullStack";
 import Footer from "./component/Footer";
-import Frontend from "./component/Frontend"
-import FullStack from "./component/FullStack"
 
 function App() {
   return (
@@ -17,12 +16,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/project" element={<Project />} />
+          <Route exact path="/project" element={<FullStack/>} />
           <Route exact path="/skills" element={<Skills />} />
-          <Route exact path="/project/full-stack" element={<FullStack/>} />
-          <Route exact path="/project/front-end" element={<Frontend/>} />
+          <Route exact path="/project/full-stack" element={<FullStack />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </Router>
     </>
   );
