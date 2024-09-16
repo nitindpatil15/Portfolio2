@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import About from "./component/About";
 import Navbar from "./component/Navbar";
-import Project from "./component/Project";
 import Skills from "./component/Skills";
 import Home from "./component/Home";
 import FullStack from "./component/FullStack";
