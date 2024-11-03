@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import SocialMedia from "../Assets/img/SocialMedia.png";
 import TextPro from "../Assets/img/TextEditor.jpg";
-import NoteBook from "../Assets/img/notebook.png";
-import NewsApi from "../Assets/img/NewsApi.png";
+import Movieimg from "../Assets/img/MovieTicket.png";
 
 const Project = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="mt-10">
@@ -31,22 +32,72 @@ const Project = () => {
       <div className="container my-5">
         <div className="row">
           <div className="flex flex-wrap justify-center">
-            <div className="card mx-3 my-2 md:w-96">
-              <img
-                src={TextPro}
-                alt="TextEditor Application"
-                style={{ height: "12rem", border: "0.1rem solid black" }}
-              />
+            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
+              <Link to="https://connect-us-psi.vercel.app/">
+                <img
+                  src={SocialMedia}
+                  alt="Connect-Us Application"
+                  style={{ height: "16rem", border: "0.1rem solid black" }}
+                  className="object-cover"
+                />
+              </Link>
               <div className="card-body">
-                <h5>
-                  PROJECT: <span className="text-indigo-400">TextEditor</span>
+                <h5 className="font-bold uppercase text-xl">
+                  PROJECT:{" "}
+                  <span className="text-indigo-700 font-bold">Connect-Us</span>
                 </h5>
-                <h5>DESCRIPTION: </h5>
-                <span>
-                  Enabled text transformation, extra space removal, and
-                  uppercase/lowercase conversions.
-                </span>
                 <h5>
+                  <span className="font-bold">DESCRIPTION: </span>
+                  <span>
+                    Developed a MERN stack{" "}
+                    <span className="font-bold">SocialMedia</span> app with
+                    features like user registration, login, content posting with
+                    images, likes, and comments, along with profile integration,
+                    similar to Instagram. Data is retrieved from an API.
+                  </span>
+                </h5>
+                <h5 className="font-bold">
+                  Source:{" "}
+                  <Link
+                    to="https://github.com/nitindpatil15/Connect-us"
+                    className="text-red-500"
+                  >
+                    GitHub
+                  </Link>
+                </h5>
+                <h5 className="font-bold">
+                  Live App:{" "}
+                  <Link
+                    to="https://connect-us-psi.vercel.app/"
+                    className="text-red-500"
+                  >
+                    Link
+                  </Link>
+                </h5>
+              </div>
+            </div>
+
+            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
+              <Link to="https://text-editor-inky-ten.vercel.app/">
+                <img
+                  src={TextPro}
+                  alt="TextEditor Application"
+                  style={{ height: "13rem", border: "0.1rem solid black" }}
+                />
+              </Link>
+              <div className="card-body">
+                <h5 className="font-bold uppercase text-xl">
+                  PROJECT:{" "}
+                  <span className="text-indigo-400 uppercase">TextEditor</span>
+                </h5>
+                <h5>
+                  <span className="font-bold">DESCRIPTION: </span>
+                  <span>
+                    Enabled text transformation, extra space removal, and
+                    uppercase/lowercase conversions.
+                  </span>
+                </h5>
+                <h5 className="font-bold">
                   Source:{" "}
                   <Link
                     to="https://github.com/nitindpatil15/TextEditor"
@@ -55,7 +106,7 @@ const Project = () => {
                     GitHub
                   </Link>
                 </h5>
-                <h5>
+                <h5 className="font-bold">
                   Live App:{" "}
                   <Link
                     to="https://text-editor-inky-ten.vercel.app/"
@@ -67,61 +118,46 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="card mx-3 my-2 md:w-96">
-              <img
-                src={NewsApi}
-                alt="News Application"
-                style={{ height: "12rem", border: "0.1rem solid black" }}
-              />
+            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
+              <Link to="https://movie-ticket-booking-one.vercel.app/">
+                <img
+                  src={Movieimg}
+                  alt="Movie Ticket Booking"
+                  style={{ height: "13rem", border: "0.1rem solid black" }}
+                />
+              </Link>
               <div className="card-body">
-                <h5>
-                  PROJECT: <span className="text-indigo-400">NewsApi</span>
+                <h5 className="font-bold uppercase text-xl">
+                  PROJECT:{" "}
+                  <span className="text-indigo-700 font-bold">
+                    Movie Ticket Booking
+                  </span>
                 </h5>
-                <h5>DESCRIPTION: </h5>
-                <span>
-                  Implemented React components to display and organize the
-                  fetched news data.
-                </span>
                 <h5>
+                  <span className="font-bold">DESCRIPTION: </span>
+                  <span>
+                    Developed a MERN stack{" "}
+                    <span className="font-bold uppercase">
+                      Movie Ticket Booking
+                    </span>{" "}
+                    app with role-based access control, allowing users to book
+                    tickets while admins and super admins manage and control all
+                    access.{" "}
+                  </span>
+                </h5>
+                <h5 className="font-bold">
                   Source:{" "}
                   <Link
-                    to="https://github.com/nitindpatil15/NewsNP"
+                    to="https://github.com/nitindpatil15/movie-Ticket-Bokking"
                     className="text-red-500"
                   >
                     GitHub
                   </Link>
                 </h5>
-              </div>
-            </div>
-
-            <div className="card mx-3 my-2 md:w-96">
-              <img
-                src={NoteBook}
-                alt="News Application"
-                style={{ height: "12rem", border: "0.1rem solid black" }}
-              />
-              <div className="card-body">
-                <h5>
-                  PROJECT: <span className="text-indigo-400">NoteBook</span>
-                </h5>
-                <h5>DESCRIPTION: </h5>
-                <span>
-                  Developed a MERN stack iNoteBook app with user registration,
-                  login, and Notes data retrieval from an API.
-                </span>
-                <h5>
-                  Source:{" "}
-                  <Link
-                    to="https://github.com/nitindpatil15/Notebook"
-                    className="text-red-500"
-                  >
-                    GitHub
-                  </Link>
-                </h5>
-                <h5>
+                <h5 className="font-bold">
                   Live App:{" "}
                   <Link
-                    to="https://inotebook-reactapp.netlify.app/"
+                    to="https://movie-ticket-booking-one.vercel.app/"
                     className="text-red-500"
                   >
                     Link

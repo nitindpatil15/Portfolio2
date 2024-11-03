@@ -13,14 +13,14 @@ import py from "../Assets/img/python.png";
 const Skills = () => {
   return (
     <>
-      <h1 className="text-black text-center text-4xl font-bold my-3">
+      <h1 className="text-white text-center text-4xl font-bold my-3 bg-slate-800 p-2">
         My Skills
       </h1>
-      <div className=" bg-white py-2">
+      <div className=" bg-transparent py-2">
         <div className="flex flex-row flex-wrap items-center justify-center">
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="border p-1 w-24 h-24 rounded-3xl mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52 bg-white"
               src={py}
               alt=""
             />
@@ -28,7 +28,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={js}
               alt=""
             />
@@ -38,7 +38,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={HTML}
               alt=""
             />
@@ -46,7 +46,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={CSS}
               alt=""
             />
@@ -54,7 +54,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={mdb}
               alt=""
             />
@@ -64,7 +64,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={react}
               alt=""
             />
@@ -72,7 +72,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={ex}
               alt=""
             />
@@ -82,7 +82,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={njs}
               alt=""
             />
@@ -92,7 +92,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={vstudio}
               alt=""
             />
@@ -102,7 +102,7 @@ const Skills = () => {
           </div>
           <div className="my-2 mx-5">
             <img
-              className="border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-40 xl:w-40"
+              className="bg-white border p-1 w-24 h-24 rounded-3xl md:w-32 md:h-32 mt-4 lg:h-36 lg:w-36 xl:h-52 xl:w-52"
               src={github}
               alt=""
             />
