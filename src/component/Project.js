@@ -1,11 +1,10 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import SocialMedia from "../Assets/img/SocialMedia.png";
 import TextPro from "../Assets/img/TextEditor.jpg";
 import Movieimg from "../Assets/img/MovieTicket.png";
 
 const Project = () => {
-  const navigate = useNavigate();
   return (
     <>
       <div className="mt-10">

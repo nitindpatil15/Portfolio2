@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Nitin from "../Assets/img/Nitin.jpg";
 import About from "./About";
 import Project from "./Project";
-import Skills from "./Skills";
 import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import resume from '../Assets/Resume/NITIN_DAGADU_PATIL.pdf'
