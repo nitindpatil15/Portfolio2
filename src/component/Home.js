@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import  { useRef } from "react";
 import Nitin from "../Assets/img/Nitin.jpg";
 import About from "./About";
 import Project from "./Project";

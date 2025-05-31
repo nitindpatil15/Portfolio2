@@ -1,5 +1,3 @@
-import React from "react";
-import { Link} from "react-router-dom";
 import SocialMedia from "../Assets/img/SocialMedia.png";
 import TextPro from "../Assets/img/TextEditor.jpg";
 import Movieimg from "../Assets/img/MovieTicket.png";

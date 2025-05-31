@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import NoteBook from "../Assets/img/notebook.png";
 import Movieimg from "../Assets/img/MovieTicket.png";
 import VideoTube from "../Assets/img/VideoTube.png";
