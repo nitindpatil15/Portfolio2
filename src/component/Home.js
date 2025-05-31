@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Nitin from "../Assets/img/Nitin.jpg";
 import About from "./About";
 import Project from "./Project";
 import { useNavigate, Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
-import resume from '../Assets/Resume/NITIN_DAGADU_PATIL.pdf'
+import resume from '../Assets/Resume/NITIN_DAGADU_PATIL.pdf';
+import { motion } from "framer-motion";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -13,79 +14,100 @@ const Home = () => {
   const handleproject = () => {
     navigate("/project");
   };
+
   const openResume = () => {
-    const resumeWindow = window.open('', '_blank');
-    resumeWindow.document.write('<iframe width="100%" height="100%" src="' + resume + '" frameBorder="0" allowFullScreen></iframe>');
-  }
+    window.open(resume, '_blank');
+  };
 
   return (
-    <>
-      <div className="flex items-center justify-center flex-col-reverse md:flex-row md:ml-20 mt-4">
-        <div
-          className="mt-2 mx-4 md:mr-16"
-          ref={componentRef}
-        >
-          <div className="md:text-4xl text-3xl text-center">
-          <b> Hello,</b><br />
-            <b>I am </b>
-            {"  "}
-            <b>
-              <span>
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white pt-14">
+      <div className="container mx-auto px-4 py-16">
+        <div className="flex flex-col-reverse my-5 md:flex-row items-center justify-between gap-12">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex-1 space-y-8"
+            ref={componentRef}
+          >
+            <div className="space-y-4">
+              <h1 className="text-4xl md:text-6xl font-bold">
+                Hello, I'm{" "}
+                <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+                  Nitin Patil
+                </span>
+              </h1>
+              <div className="text-2xl md:text-3xl font-semibold">
                 <ReactTyped
-                  className="text-primary"
+                  className="text-blue-400"
                   strings={[
-                    " Web Developer",
-                    " Full Stack Developer",
-                    " Front End Developer",
-                    " MERN Stack Developer",
-                    " Web Developer",
-                    " Full Stack Developer",
-                    " Front End Developer",
-                    " MERN Stack Developer",
-                    " Web Developer",
-                    " Full Stack Developer",
-                    " Front End Developer",
-                    " MERN Stack Developer",
-                    " Web Developer",
-                    " Full Stack Developer",
-                    " Front End Developer",
-                    " MERN Stack Developer",
+                    "Web Developer",
+                    "Full Stack Developer",
+                    "Front End Developer",
+                    "MERN Stack Developer",
                   ]}
                   typeSpeed={100}
+                  backSpeed={50}
+                  loop
                 />
-              </span>
-            </b>
-          </div>
-          <div className="my-4 text-justify text-2xl md:text-3xl">
-            Welcome to my <span className="text-indigo-500 font-bold">Portfolio</span>! I am a software developer with a passion
-            for creating innovative web solutions. My <Link className="hover:no-underline hover:text-red-700" to='https://github.com/nitindpatil15/'>GitHub</Link> repository is a
-            treasure trove of creative projects that showcase my skills and
-            expertise.
-          </div>
-          <div className="flex flex-row justify-center md:justify-start">
-            <button className="bg-blue-500 mx-2 p-2 text-2xl rounded-3xl hover:text-white hover:bg-gray-500 hover:border-4 hover:border-indigo-600 px-4" onClick={openResume}>Resume</button>
-            <button
-              type="button"
-              className="bg-green-500 mx-2 p-2 text-2xl rounded-3xl hover:text-white hover:bg-gray-500 hover:border-4 hover:border-green-600 px-4"
-              onClick={handleproject}
-            >
-              Project
-            </button>
-          </div>
-        </div>
-        <div className="md:container mx-20">
-          <Link to="" className="">
-            <img
-              className="w-36 mt-12 md:w-72 rounded-full"
-              src={Nitin}
-              alt="Nitin_Img"
-            />
-          </Link>
+              </div>
+            </div>
+
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+              Welcome to my portfolio! I'm a passionate software developer dedicated to creating
+              innovative web solutions. Explore my{" "}
+              <Link
+                to="https://github.com/nitindpatil15/"
+                className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </Link>{" "}
+              to discover my projects and technical expertise.
+            </p>
+
+            <div className="flex flex-wrap gap-4">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full text-white font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
+                onClick={openResume}
+              >
+                View Resume
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-3 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full text-white font-semibold hover:from-purple-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl"
+                onClick={handleproject}
+              >
+                View Projects
+              </motion.button>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="flex-1 flex justify-center"
+          >
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+              <img
+                src={Nitin}
+                alt="Nitin Patil"
+                className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-gray-700 shadow-2xl hover:border-blue-500 transition-all duration-300"
+              />
+            </div>
+          </motion.div>
         </div>
       </div>
+
       <About />
       <Project />
-    </>
+    </div>
   );
 };
 

@@ -7,161 +7,147 @@ import Movieimg from "../Assets/img/MovieTicket.png";
 const Project = () => {
   return (
     <>
-      <div className="mt-10">
-        <div className="text-xl md:text-3xl">
-          <ul className="bg-black py-2 text-gray-300">
-            <li className="flex flex-row justify-start">
-              <Link
-                to="/project"
-                className="mx-3 md:mx-10 text-green-500 hover:no-underline hover:text-indigo-600"
-              >
-                <b>PROJECT</b>
-              </Link>
-              <Link
-                to="/project/full-stack"
-                className="ml-3 md:ml-5 hover:no-underline hover:text-indigo-600"
-              >
-                All Projects
-              </Link>
-            </li>
-          </ul>
-        </div>
+      <div className=" pb-6 bg-gradient-to-b from-gray-900 to-gray-800">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-white mb-2 tracking-tight">
+          Projects
+        </h2>
+        <p className="text-center text-gray-300 mb-6 text-base">
+          Explore some of my featured web applications and solutions.
+        </p>
       </div>
 
-      <div className="container my-5">
-        <div className="row">
-          <div className="flex flex-wrap justify-center">
-            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-              <Link to="https://connect-us-psi.vercel.app/">
-                <img
-                  src={SocialMedia}
-                  alt="Connect-Us Application"
-                  style={{ height: "16rem", border: "0.1rem solid black" }}
-                  className="object-cover"
-                />
-              </Link>
-              <div className="card-body">
-                <h5 className="font-bold uppercase text-xl">
-                  PROJECT:{" "}
-                  <span className="text-indigo-700 font-bold">Connect-Us</span>
-                </h5>
-                <h5>
-                  <span className="font-bold">DESCRIPTION: </span>
-                  <span>
-                    Developed a MERN stack{" "}
-                    <span className="font-bold">SocialMedia</span> app with
-                    features like user registration, login, content posting with
-                    images, likes, and comments, along with profile integration,
-                    similar to Instagram. Data is retrieved from an API.
-                  </span>
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" "}
-                  <Link
-                    to="https://github.com/nitindpatil15/Connect-us"
-                    className="text-red-500"
-                  >
-                    GitHub
-                  </Link>
-                </h5>
-                <h5 className="font-bold">
-                  Live App:{" "}
-                  <Link
-                    to="https://connect-us-psi.vercel.app/"
-                    className="text-red-500"
-                  >
-                    Link
-                  </Link>
-                </h5>
+      <div className="container mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 m-4">
+          {/* Card 1 */}
+          <div className="bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105 mb-4">
+            <a
+              href="https://connect-us-psi.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={SocialMedia}
+                alt="Connect-Us Application"
+                className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
+              />
+            </a>
+            <div className="p-5 flex flex-col flex-1">
+              <h5 className="font-bold uppercase text-xl mb-2 text-indigo-700">
+                Connect-Us
+              </h5>
+              <p className="mb-4 text-gray-700 text-sm">
+                <span className="font-bold">DESCRIPTION: </span>
+                Developed a MERN stack{" "}
+                <span className="font-bold">SocialMedia</span> app with features
+                like user registration, login, content posting with images, likes,
+                and comments, along with profile integration, similar to
+                Instagram. Data is retrieved from an API.
+              </p>
+              <div className="mt-auto">
+                <a
+                  href="https://github.com/nitindpatil15/Connect-us"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-500 font-semibold mr-4 hover:underline"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://connect-us-psi.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 font-semibold hover:underline"
+                >
+                  Live App
+                </a>
               </div>
             </div>
-
-            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-              <Link to="https://text-editor-inky-ten.vercel.app/">
-                <img
-                  src={TextPro}
-                  alt="TextEditor Application"
-                  style={{ height: "13rem", border: "0.1rem solid black" }}
-                />
-              </Link>
-              <div className="card-body">
-                <h5 className="font-bold uppercase text-xl">
-                  PROJECT:{" "}
-                  <span className="text-indigo-400 uppercase">TextEditor</span>
-                </h5>
-                <h5>
-                  <span className="font-bold">DESCRIPTION: </span>
-                  <span>
-                    Enabled text transformation, extra space removal, and
-                    uppercase/lowercase conversions.
-                  </span>
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" "}
-                  <Link
-                    to="https://github.com/nitindpatil15/TextEditor"
-                    className="text-red-500"
-                  >
-                    GitHub
-                  </Link>
-                </h5>
-                <h5 className="font-bold">
-                  Live App:{" "}
-                  <Link
-                    to="https://text-editor-inky-ten.vercel.app/"
-                    className="text-red-500"
-                  >
-                    Link
-                  </Link>
-                </h5>
+          </div>
+          {/* Card 2 */}
+          <div className="mb-4 bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+            <a
+              href="https://text-editor-inky-ten.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={TextPro}
+                alt="TextEditor Application"
+                className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
+              />
+            </a>
+            <div className="p-5 flex flex-col flex-1">
+              <h5 className="font-bold uppercase text-xl mb-2 text-indigo-400">
+                TextEditor
+              </h5>
+              <p className="mb-4 text-gray-700 text-sm">
+                <span className="font-bold">DESCRIPTION: </span>
+                Enabled text transformation, extra space removal, and
+                uppercase/lowercase conversions.
+              </p>
+              <div className="mt-auto">
+                <a
+                  href="https://github.com/nitindpatil15/TextEditor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-500 font-semibold mr-4 hover:underline"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://text-editor-inky-ten.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 font-semibold hover:underline"
+                >
+                  Live App
+                </a>
               </div>
             </div>
-
-            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-              <Link to="https://movie-ticket-booking-one.vercel.app/">
-                <img
-                  src={Movieimg}
-                  alt="Movie Ticket Booking"
-                  style={{ height: "13rem", border: "0.1rem solid black" }}
-                />
-              </Link>
-              <div className="card-body">
-                <h5 className="font-bold uppercase text-xl">
-                  PROJECT:{" "}
-                  <span className="text-indigo-700 font-bold">
-                    Movie Ticket Booking
-                  </span>
-                </h5>
-                <h5>
-                  <span className="font-bold">DESCRIPTION: </span>
-                  <span>
-                    Developed a MERN stack{" "}
-                    <span className="font-bold uppercase">
-                      Movie Ticket Booking
-                    </span>{" "}
-                    app with role-based access control, allowing users to book
-                    tickets while admins and super admins manage and control all
-                    access.{" "}
-                  </span>
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" "}
-                  <Link
-                    to="https://github.com/nitindpatil15/movie-Ticket-Bokking"
-                    className="text-red-500"
-                  >
-                    GitHub
-                  </Link>
-                </h5>
-                <h5 className="font-bold">
-                  Live App:{" "}
-                  <Link
-                    to="https://movie-ticket-booking-one.vercel.app/"
-                    className="text-red-500"
-                  >
-                    Link
-                  </Link>
-                </h5>
+          </div>
+          {/* Card 3 */}
+          <div className="mb-4 bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+            <a
+              href="https://movie-ticket-booking-one.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={Movieimg}
+                alt="Movie Ticket Booking"
+                className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
+              />
+            </a>
+            <div className="p-5 flex flex-col flex-1">
+              <h5 className="font-bold uppercase text-xl mb-2 text-indigo-700">
+                Movie Ticket Booking
+              </h5>
+              <p className="mb-4 text-gray-700 text-sm">
+                <span className="font-bold">DESCRIPTION: </span>
+                Developed a MERN stack{" "}
+                <span className="font-bold uppercase">
+                  Movie Ticket Booking
+                </span>{" "}
+                app with role-based access control, allowing users to book tickets
+                while admins and super admins manage and control all access.
+              </p>
+              <div className="mt-auto">
+                <a
+                  href="https://github.com/nitindpatil15/movie-Ticket-Bokking"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-500 font-semibold mr-4 hover:underline"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://movie-ticket-booking-one.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 font-semibold hover:underline"
+                >
+                  Live App
+                </a>
               </div>
             </div>
           </div>

@@ -12,279 +12,279 @@ const Full_Stack = () => {
     <>
       {/* FullStack Projects  */}
 
-      <div className=" my-5">
-        <div className="text-2xl font-bold text-white text-center p-2 mb-5 bg-black">
-          FullStack Projects
-        </div>
-        <div className="row">
-          <div className="flex flex-wrap justify-center">
-            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-              <Link to="https://github.com/nitindpatil15/videotube-frontend">
+      <div className=" my-5 pt-16">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900 mb-2 tracking-tight">
+          Full Stack Projects
+        </h2>
+        <p className="text-center text-gray-500 mb-6 text-base">
+          MERN stack applications with robust backend and frontend integration.
+        </p>
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* VideoTube Card */}
+            <div className="bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+              <a
+                href="https://github.com/nitindpatil15/videotube-frontend"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={VideoTube}
                   alt="VideoTube Application"
-                  style={{ height: "13rem", border: "0.1rem solid black" }}
-                  className="object-fill"
+                  className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
                 />
-              </Link>
-              <div className="card-body">
-                <h5 className="font-bold uppercase text-xl">
-                  PROJECT: <span className="text-indigo-700">VideoTube</span>
+              </a>
+              <div className="p-5 flex flex-col flex-1">
+                <h5 className="font-bold uppercase text-xl mb-2 text-indigo-700">
+                  VideoTube
                 </h5>
-                <h5>
-                  <span className="font-bold">DESCRIPTION: </span>
-                  <span>
-                    Working on a{" "}
-                    <span className="font-bold uppercase">YouTube clone</span>{" "}
-                    using the MERN stack, implementing features such as video
-                    CRUD operations, comment management, community posts,
-                    like/dislike toggling, and subscription functionality.
-                  </span>{" "}
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" Client-Site "}
-                  <Link
-                    to="https://github.com/nitindpatil15/videotube-frontend"
-                    className="text-red-500"
+                <p className="mb-4 text-gray-700 text-sm">
+                  <span className="font-bold">DESCRIPTION: </span> Working on a{" "}
+                  <span className="font-bold uppercase">YouTube clone</span> using
+                  the MERN stack, implementing features such as video CRUD
+                  operations, comment management, community posts, like/dislike
+                  toggling, and subscription functionality.
+                </p>
+                <div className="mt-auto">
+                  <a
+                    href="https://github.com/nitindpatil15/videotube-frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500 font-semibold mr-4 hover:underline"
                   >
-                    GitHub
-                  </Link>
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" Backend "}
-                  <Link
-                    to="https://github.com/nitindpatil15/videoTube-nitin"
-                    className="text-red-500"
+                    Client GitHub
+                  </a>
+                  <a
+                    href="https://github.com/nitindpatil15/videoTube-nitin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500 font-semibold hover:underline"
                   >
-                    GitHub
-                  </Link>
-                </h5>
+                    Backend GitHub
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-              <Link to="https://movie-ticket-booking-one.vercel.app/">
+            {/* Movie Ticket Booking Card */}
+            <div className="bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+              <a
+                href="https://movie-ticket-booking-one.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={Movieimg}
                   alt="Movie Ticket Booking"
-                  style={{ height: "13rem", border: "0.1rem solid black" }}
+                  className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
                 />
-              </Link>
-              <div className="card-body">
-                <h5 className="font-bold uppercase text-xl">
-                  PROJECT:{" "}
-                  <span className="text-indigo-700 font-bold">
-                    Movie Ticket Booking
-                  </span>
+              </a>
+              <div className="p-5 flex flex-col flex-1">
+                <h5 className="font-bold uppercase text-xl mb-2 text-indigo-700">
+                  Movie Ticket Booking
                 </h5>
-                <h5>
-                  <span className="font-bold">DESCRIPTION: </span>
-                  <span>
-                    Developed a MERN stack{" "}
-                    <span className="font-bold uppercase">
-                      Movie Ticket Booking
-                    </span>{" "}
-                    app with role-based access control, allowing users to book
-                    tickets while admins and super admins manage and control all
-                    access.{" "}
-                  </span>
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" "}
-                  <Link
-                    to="https://github.com/nitindpatil15/movie-Ticket-Bokking"
-                    className="text-red-500"
+                <p className="mb-4 text-gray-700 text-sm">
+                  <span className="font-bold">DESCRIPTION: </span> Developed a
+                  MERN stack{" "}
+                  <span className="font-bold uppercase">Movie Ticket Booking</span>
+                  {" "}app with role-based access control, allowing users to book
+                  tickets while admins and super admins manage and control all
+                  access.
+                </p>
+                <div className="mt-auto">
+                  <a
+                    href="https://github.com/nitindpatil15/movie-Ticket-Bokking"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500 font-semibold mr-4 hover:underline"
                   >
                     GitHub
-                  </Link>
-                </h5>
-                <h5 className="font-bold">
-                  Live App:{" "}
-                  <Link
-                    to="https://movie-ticket-booking-one.vercel.app/"
-                    className="text-red-500"
+                  </a>
+                  <a
+                    href="https://movie-ticket-booking-one.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 font-semibold hover:underline"
                   >
-                    Link
-                  </Link>
-                </h5>
+                    Live App
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-              <Link to="https://inotebook-reactapp.netlify.app/">
+            {/* NoteBook Card */}
+            <div className="bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+              <a
+                href="https://inotebook-reactapp.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={NoteBook}
-                  alt="News Application"
-                  style={{ height: "13rem", border: "0.1rem solid black" }}
+                  alt="NoteBook Application"
+                  className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
                 />
-              </Link>
-              <div className="card-body">
-                <h5 className="font-bold uppercase text-xl">
-                  PROJECT:{" "}
-                  <span className="text-indigo-700 font-bold">NoteBook</span>
+              </a>
+              <div className="p-5 flex flex-col flex-1">
+                <h5 className="font-bold uppercase text-xl mb-2 text-indigo-700">
+                  NoteBook
                 </h5>
-                <h5>
-                  <span className="font-bold">DESCRIPTION: </span>
-                  <span>
-                    Developed a MERN stack{" "}
-                    <span className="font-bold uppercase">iNoteBook</span> app
-                    with user registration, login, and Notes data retrieval from
-                    an API.
-                  </span>
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" "}
-                  <Link
-                    to="https://github.com/nitindpatil15/Notebook"
-                    className="text-red-500"
+                <p className="mb-4 text-gray-700 text-sm">
+                  <span className="font-bold">DESCRIPTION: </span> Developed a
+                  MERN stack{" "}
+                  <span className="font-bold uppercase">iNoteBook</span> app with
+                  user registration, login, and Notes data retrieval from an API.
+                </p>
+                <div className="mt-auto">
+                  <a
+                    href="https://github.com/nitindpatil15/Notebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500 font-semibold mr-4 hover:underline"
                   >
                     GitHub
-                  </Link>
-                </h5>
-                <h5 className="font-bold">
-                  Live App:{" "}
-                  <Link
-                    to="https://inotebook-reactapp.netlify.app/"
-                    className="text-red-500"
+                  </a>
+                  <a
+                    href="https://inotebook-reactapp.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 font-semibold hover:underline"
                   >
-                    Link
-                  </Link>
-                </h5>
+                    Live App
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-              <Link to="https://connect-us-psi.vercel.app/">
+            {/* Connect-Us Card */}
+            <div className="bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+              <a
+                href="https://connect-us-psi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={SocialMedia}
                   alt="Connect-Us Application"
-                  style={{ height: "16rem", border: "0.1rem solid black" }}
-                  className="object-cover"
+                  className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
                 />
-              </Link>
-              <div className="card-body">
-                <h5 className="font-bold uppercase text-xl">
-                  PROJECT:{" "}
-                  <span className="text-indigo-700 font-bold">Connect-Us</span>
+              </a>
+              <div className="p-5 flex flex-col flex-1">
+                <h5 className="font-bold uppercase text-xl mb-2 text-indigo-700">
+                  Connect-Us
                 </h5>
-                <h5>
-                  <span className="font-bold">DESCRIPTION: </span>
-                  <span>
-                    Developed a MERN stack{" "}
-                    <span className="font-bold">SocialMedia</span> app with
-                    features like user registration, login, content posting with
-                    images, likes, and comments, along with profile integration,
-                    similar to Instagram. Data is retrieved from an API.
-                  </span>
-                </h5>
-                <h5 className="font-bold">
-                  Source:{" "}
-                  <Link
-                    to="https://github.com/nitindpatil15/Connect-us"
-                    className="text-red-500"
+                <p className="mb-4 text-gray-700 text-sm">
+                  <span className="font-bold">DESCRIPTION: </span> Developed a
+                  MERN stack{" "}
+                  <span className="font-bold">SocialMedia</span> app with features
+                  like user registration, login, content posting with images,
+                  likes, and comments, along with profile integration, similar to
+                  Instagram. Data is retrieved from an API.
+                </p>
+                <div className="mt-auto">
+                  <a
+                    href="https://github.com/nitindpatil15/Connect-us"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500 font-semibold mr-4 hover:underline"
                   >
                     GitHub
-                  </Link>
-                </h5>
-                <h5 className="font-bold">
-                  Live App:{" "}
-                  <Link
-                    to="https://connect-us-psi.vercel.app/"
-                    className="text-red-500"
+                  </a>
+                  <a
+                    href="https://connect-us-psi.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 font-semibold hover:underline"
                   >
-                    Link
-                  </Link>
-                </h5>
+                    Live App
+                  </a>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-            {/* FrontEnd Projects  */}
+      {/* FrontEnd Projects  */}
 
-            <div className="my-5">
-              <div className="text-2xl font-bold text-white text-center p-2 mb-5 bg-black">
-                FrontEnd Projects
+      <div className="my-5">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900 mb-2 tracking-tight">
+          Frontend Projects
+        </h2>
+        <p className="text-center text-gray-500 mb-6 text-base">
+          React-based UI projects focused on user experience and interactivity.
+        </p>
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* TextEditor Card */}
+            <div className="bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+              <a
+                href="https://text-editor-inky-ten.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={TextPro}
+                  alt="TextEditor Application"
+                  className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
+                />
+              </a>
+              <div className="p-5 flex flex-col flex-1">
+                <h5 className="font-bold uppercase text-xl mb-2 text-indigo-400">
+                  TextEditor
+                </h5>
+                <p className="mb-4 text-gray-700 text-sm">
+                  <span className="font-bold">DESCRIPTION: </span> Enabled text
+                  transformation, extra space removal, and uppercase/lowercase
+                  conversions.
+                </p>
+                <div className="mt-auto">
+                  <a
+                    href="https://github.com/nitindpatil15/TextEditor"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500 font-semibold mr-4 hover:underline"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://text-editor-inky-ten.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 font-semibold hover:underline"
+                  >
+                    Live App
+                  </a>
+                </div>
               </div>
-              <div className="row">
-                <div className="flex flex-wrap justify-center">
-                  <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-                    <Link to="https://text-editor-inky-ten.vercel.app/">
-                      <img
-                        src={TextPro}
-                        alt="TextEditor Application"
-                        style={{
-                          height: "13rem",
-                          border: "0.1rem solid black",
-                        }}
-                      />
-                    </Link>
-                    <div className="card-body">
-                      <h5 className="font-bold uppercase text-xl">
-                        PROJECT:{" "}
-                        <span className="text-indigo-400 uppercase">
-                          TextEditor
-                        </span>
-                      </h5>
-                      <h5>
-                        <span className="font-bold">DESCRIPTION: </span>
-                        <span>
-                          Enabled text transformation, extra space removal, and
-                          uppercase/lowercase conversions.
-                        </span>
-                      </h5>
-                      <h5 className="font-bold">
-                        Source:{" "}
-                        <Link
-                          to="https://github.com/nitindpatil15/TextEditor"
-                          className="text-red-500"
-                        >
-                          GitHub
-                        </Link>
-                      </h5>
-                      <h5 className="font-bold">
-                        Live App:{" "}
-                        <Link
-                          to="https://text-editor-inky-ten.vercel.app/"
-                          className="text-red-500"
-                        >
-                          Link
-                        </Link>
-                      </h5>
-                    </div>
-                  </div>
-
-                  <div className="card mx-3 my-2 md:w-[30rem] bg-white p-2 border-8 border-slate-900">
-                    <Link to="https://github.com/nitindpatil15/NewsNP">
-                      <img
-                        src={NewsApi}
-                        alt="News Application"
-                        style={{
-                          height: "13rem",
-                          border: "0.1rem solid black",
-                        }}
-                      />
-                    </Link>
-                    <div className="card-body">
-                      <h5 className="font-bold uppercase text-xl">
-                        PROJECT:{" "}
-                        <span className="text-indigo-400 uppercase">
-                          NewsApi
-                        </span>
-                      </h5>
-                      <h5>
-                        <span className="font-bold">DESCRIPTION: </span>
-                        <span>
-                          Implemented React components to display and organize
-                          the fetched news data.
-                        </span>
-                      </h5>
-                      <h5 className="font-bold">
-                        Source:{" "}
-                        <Link
-                          to="https://github.com/nitindpatil15/NewsNP"
-                          className="text-red-500"
-                        >
-                          GitHub
-                        </Link>
-                      </h5>
-                    </div>
-                  </div>
+            </div>
+            {/* NewsApi Card */}
+            <div className="bg-white rounded-xl shadow-lg border-4 border-slate-900 flex flex-col transition-transform hover:scale-105">
+              <a
+                href="https://github.com/nitindpatil15/NewsNP"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={NewsApi}
+                  alt="News Application"
+                  className="rounded-t-xl object-cover h-56 w-full border-b border-slate-200"
+                />
+              </a>
+              <div className="p-5 flex flex-col flex-1">
+                <h5 className="font-bold uppercase text-xl mb-2 text-indigo-400">
+                  NewsApi
+                </h5>
+                <p className="mb-4 text-gray-700 text-sm">
+                  <span className="font-bold">DESCRIPTION: </span> Implemented
+                  React components to display and organize the fetched news data.
+                </p>
+                <div className="mt-auto">
+                  <a
+                    href="https://github.com/nitindpatil15/NewsNP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500 font-semibold hover:underline"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>
