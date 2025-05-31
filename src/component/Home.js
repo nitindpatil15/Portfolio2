@@ -94,11 +94,11 @@ const Home = () => {
             className="flex-1 flex justify-center"
           >
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-slate-700 to-gray-700 rounded-full blur-2xl opacity-20 animate-pulse"></div>
               <img
                 src={Nitin}
                 alt="Nitin Patil"
-                className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-gray-700 shadow-2xl hover:border-blue-500 transition-all duration-300"
+                className="w-auto h-64 md:h-80 rounded-xl object-cover border-4 border-gray-700 shadow-2xl hover:border-blue-500 transition-all duration-300"
               />
             </div>
           </motion.div>
